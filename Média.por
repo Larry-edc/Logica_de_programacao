@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    inteiro un1,un2,un3,un4,media
+    real un1,un2,un3,un4,media
     escreva("Digite sua 1º nota: ")
     leia(un1)
     escreva("Digite sua 2ª nota: ")
