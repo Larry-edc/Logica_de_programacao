@@ -1,6 +1,8 @@
-programa {
+programa 
+{
   inclua biblioteca Matematica-->mat
-  funcao inicio() {
+  funcao inicio() 
+{
    real pi,volume,altura,raio
    pi=(3.14)
    escreva("Digite a altura: ")
@@ -9,9 +11,5 @@ programa {
    leia(raio)
    volume=pi*(mat.potencia(raio,2)*altura)
    escreva("O volume é: " +volume)
-
-
-
-  
   }
 }
