@@ -27,9 +27,7 @@ programa {
      escreva("Novembro")
     senao se(mes==12)
      escreva("Dezembro")
-    senao se(mes<1 ou mes>12)
-     escreva("Dados inválidos")
-    retorne
-    }
+   senao
+     escreva("Dados inválidos.")
       }
 }
