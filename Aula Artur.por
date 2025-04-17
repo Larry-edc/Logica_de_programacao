@@ -1,13 +1,16 @@
 programa {
-  inclua biblioteca Matematica-->mat
+  inclua biblioteca Matematica-->mat 
   funcao inicio() {
-  real equacao
-
-  escreva("Digite um número: ") 
-  leia(equacao)
-   escreva("O resultado é: " + equacao*3 + (mat.potencia(4,2) /2))
-   
+    real m,a,h,v,equacao
+    escreva("Digite um número: ")
+     leia(m)
+    escreva("Digite um número: ")
+     leia(a)
+    escreva("Digite um número: ")
+     leia(h)
+    escreva("Digite um número: ")
+     leia(v)
+    equacao= m*(a*h) + mat.potencia(v,2) /2
+   escreva("Resultado: " +equacao)
   }
-
-
 }
