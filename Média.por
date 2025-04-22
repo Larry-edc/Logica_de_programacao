@@ -23,7 +23,7 @@ programa {
      retorne }
     media = (un1+un2+un3+un4)/4
     escreva("Sua média é: "+media)
-    se(media>=6){
+    se(media>=7){
       escreva("\nVocê foi aprovado!")}
     senao{
       escreva("\nVocê foi Reprovado")}
