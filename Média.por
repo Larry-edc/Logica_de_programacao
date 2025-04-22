@@ -1,7 +1,7 @@
 programa {
   funcao inicio() {
     real un1,un2,un3,un4,media
-    escreva("Digite sua 1º nota: ")
+    escreva("Digite sua 1ª nota: ")
     leia(un1)
     se(un1<0 ou un1>10){
      escreva("Operação cancelada, digite novamente.")
