@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    //Ler números até que o usuário digite zero.
+    //Mostre a soma de todos os números digitados.
+    inteiro numero, soma = 0
+    faca{
+     escreva("Informe um número: ")
+      leia(numero)
+    soma = soma + numero
+
+    } enquanto(numero != 0 )
+   escreva("Resultado da soma: ", soma)
+
+  }
+}
