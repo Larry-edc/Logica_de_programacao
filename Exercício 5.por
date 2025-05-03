@@ -8,6 +8,9 @@ programa {
    x= a+b
    se(x>10){
     escreva("Resultado:" + x)
-   }
+    }
+   senao{
+    escreva("Valor menor que 10.")
+    }  
   }
 }
