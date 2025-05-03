@@ -6,7 +6,7 @@ programa {
     faca{
      escreva("Informe um número: ")
       leia(numero)
-    soma = soma + numero
+    soma+= numero
 
     } enquanto(numero != 0 )
    escreva("Resultado da soma: ", soma)
